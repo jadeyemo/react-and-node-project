@@ -1,12 +1,5 @@
 [
-    {
-        "id": 1,
-        "first_name": "jim",
-        "last_name": "jones"
-    },
-    {
-        "id": 2,
-        "first_name": "sam",
-        "last_name": "paul"
-    }
+    {"id":1,"first_name":"jim","last_name":"jones"},
+    {"id":2,"first_name":"sam","last_name":"paul"},
+    {"id":"4","first_name":"Josiah","last_name":"Adeyemo"}
 ]
