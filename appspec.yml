@@ -1,0 +1,15 @@
+version 0.2
+os: windows
+file:
+  - source: /
+    destination: c:\temp\webapps\myApp
+hooks:
+  ApplicationStop:
+    - location: Scripts/application_stop.bat
+      timeout: 300
+  BeforeInstall:
+    - location: Scripts/before_install.bat
+      timeout: 300
+  ApplicationStart:
+    - location: Scripts/application_start.bat
+      timeout: 300
